@@ -1,3 +1,5 @@
+#Snippet can also be used inside AWS Lambda function
+
 import boto.ec2
 conn=boto.ec2.connect_to_region("us-west-1")
 reservations = conn.get_all_instances()
