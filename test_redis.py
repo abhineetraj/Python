@@ -1,7 +1,7 @@
 import redis
 
 r = redis.Redis(
-    host='google-redis-001.mpulse.io',
+    host='google-redis-001.gooogle.io',
     port=6379, 
     db=6)
 
